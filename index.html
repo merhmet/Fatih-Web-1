@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodeP
+en - A Pen by Danna</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart Js</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="header-section container">
+            <img class="logo" src="https://od.lk/s/OTFfMzEzODM0NzBf/logo.png" alt="">
+            <div>
+                <img onclick="showCart(this)" class="cart" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAATNJREFUSEvdlNExBEEQhr8/Ai4DIuAiEAIiwCsPhEAE7oVXROAuAyGcCMjAXQS/arW7NdzezK7aq1L6caanv+5/ults2LTh+PwjgG0PKNdc0jjiNRINDFhK2v4GqLO3PQEugSdJp32qsn0F3KZvVz7Z9g7wBiwkjXoCXoAD4EzSY2sFcWh7DuyljiWQ7ZDko/IbSVrkAHWpM0lHpeBVUuH3DLxK2q/ftM7BumxyINshyQlwI+k6C6gymgKHXbL/4TOWFBJ/2dpJth0d9NADsAQmafZZQFVFfNQWsCvpvQescc3uokTXqaTjTQBiJkLPqKJoklYSLm5T29F+0bYxQFn7FaAUtHRfrKD67DvgHLiXdFEHtd16nkK7AppVnsqQbuA2eYptWsp0sApKOufuO0n0pwGfKWV1Gdi1u8sAAAAASUVORK5CYII=" alt="">
+                <p class="count-product">0</p>
+            </div>
+            <div class="cart-products" id="products-id">
+                <p class="close-btn" onclick="closeBtn()">X</p>
+                <h3>Winkel</h3>
+                <div class="card-items">
+                    <!-- <div class="item">
+                        <img src="https://od.lk/s/OTFfMzEzODM0NzJf/Ekran.png" alt="">
+                        <div class="item-content">
+                            <h5>name of product name of product name of product</h5>
+                            <h5 class="cart-price">45.50€</h5>
+                            <h6>Amount: 3</h6>
+                        </div>
+                        <span>X</span>
+                    </div>
+    
+                    <div class="item">
+                        <img src="https://od.lk/s/OTFfMzEzODM0Njhf/ekran5.png" alt="">
+                        <div class="item-content">
+                            <h5>name of product name of product name of product</h5>
+                            <h5 class="cart-price">45.50€</h5>
+                            <h6>Amount: 3</h6>
+                        </div>
+                        <span class="delete-product" data-id="">X</span>
+                    </div> -->
+                </div>
+                <h2>Total: €<strong class="price-total">0</strong></h2>
+            </div>
+        </div>
+    </header>
+    <section class="container">
+        <div class="products">
+            <div class="carts">
+                <div>
+                    <img src="https://od.lk/s/OTFfMzEzODM0Njhf/ekran5.png" alt="">
+                    <p><span>20</span>€</p>
+                </div>
+                <p class="title">Tempest Cataclysm Combo 3 En 1 Gaming Teclado</p>
+                <a href="" data-id="1" class="btn-add-cart">+ Bestellen</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="https://od.lk/s/OTFfMzEzODM0Njlf/kran2.png" alt="">
+                    <p><span>35</span>€</p>
+                </div>
+                <p class="title"> Newskill Suiko Ivory Teclado Mecánico Gaming Full RGB</p>
+                <a href="" class="btn-add-cart" data-id="2">+ Bestellen</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="https://od.lk/s/OTFfMzEzODM0NzFf/macbook_PNG8.png" alt="">
+                    <p><span>15.50</span>€</p>
+                </div>
+                <p class="title"> Aukey KM-G16 Teclado Mecánico Gaming Retroiluminado</p>
+                <a href="" data-id="3" class="btn-add-cart">+ Bestellen</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="https://od.lk/s/OTFfMzEzODM0NzJf/Ekran.png" alt="">
+                    <p><span>20.20</span>€</p>
+                </div>
+                <p class="title"> Razer Huntsman Elite Teclado Mecánico Gaming RGB</p>
+                <a href="" data-id="4" class="btn-add-cart">+ Bestellen</a>
+            </div>
+           
+        </div>
+    </section>
+
+
+    <script>
+        function showCart(x){
+            document.getElementById("products-id").style.display = "block";
+        }
+        function closeBtn(){
+             document.getElementById("products-id").style.display = "none";
+        }
+
+    </script>
+    <script src="./custom.js" ></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
